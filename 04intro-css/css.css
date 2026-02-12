@@ -51,7 +51,7 @@ nav ul{
 }
 
 nav a{
-    font size: 1.2rem;
+    font-size: 1.2rem;
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
@@ -109,7 +109,7 @@ main dl dt{
 
 main dl dd{
     color: #03cee5;
-    font size: .9rem;
+    font-size: .9rem;
     margin-left: 20px;
 }
 
