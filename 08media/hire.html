@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Karl Kristjan Martinson">
+    <meta name="description" content="Kristjans Porfolio.">
+    <title>Kristjan's Portfolio</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon_io 2/favicon.ico">
+</head>
+<header>
+        <img src="images/favicon.png" alt="KRJN logo" height="100" width="100" style="margin: 0;">
+    </header>
+
+<!--This is the start of the header section very cool-->
+<body>
+    <header>
+        <div class="head">
+        <h1><span><strong>Kristjan Martinson's Portfolio</strong></span></h1>
+        <p><strong>Hire Me</strong></p>
+        </div>
+    </header>
+
+<!--this is the start of the navigation section-->
+<nav>
+    <ul>
+        <li><a href="index.html">Home Page</a></li>
+        <li><a href="work.html">My Work and Projects</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li class="active"><a href="hire.html">Hire me</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="media.html">Media</a></li>
+        
+
+    </ul>
+</nav> 
+
+<!-- start the page main -->
+    <main>
+        <h1>Hire Me</h1>
+      
+        <form method="get" action="thanks.html" class="myform">
+
+            <fieldset>
+                <legend>Your Info</legend>
+            <label>First Name: <input type="text" name="firstname" required> </label>
+            <label>Last Name: <input type="text" name="firstname" required> </label>
+            <label>E-mail: <input type="text" name="firstname" required> </label>
+            <label>Cell Number: <input type="tel" name="Phone Number" required placeholder="789-123-4567"> </label>
+            </fieldset>
+
+            <fieldset> 
+                <legend>Type of Project</legend>
+                <label><input type="checkbox" name="Photo" value="photo">Photography</label>
+                <label><input type="checkbox" name="design" value="design">Design</label>
+                <label><input type="checkbox" name="3d" value="3d">3d (blender)</label>
+                <label><input type="checkbox" name="All 3" value="all 3">All 3 Options</label>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Time</legend>
+                <label><input type="radio" value="fast" name="method" >1-3 days</label>
+                 <label><input type="radio" value="medium" name="method" >3-5 days</label>
+                  <label><input type="radio" value="slow" name="method" >5-10 days (best Results)</label>
+                  <br>
+                  <label>Preferred Delivery Format
+                    <select class="dark" name="time">
+                        <option value="none">Please Select</option>
+                        <option value="morning">Standard Images</option>
+                        <option value="noon">Standard Images Plus Working File</option>
+                        <option value="afternoon">The Whole Project File</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            
+
+            <label>About The Project (please be really thorough):
+                <textarea name="Project Description"></textarea>
+            </label>
+
+            <input type="submit" value="Send Information">
+
+        </form>
+
+
+
+
+
+
+
+    </main>
+    
+<!--this is footer section-->
+<footer> 
+    <p>&copy; 2026 | Karl Kristjan Martinson &bull; All Rights Reserved</p>
+</footer>
+
+
+
+
+</body>
+</html>
